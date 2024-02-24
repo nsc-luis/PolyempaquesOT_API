@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PolyempaquesOT_API.props" />
+</Project>

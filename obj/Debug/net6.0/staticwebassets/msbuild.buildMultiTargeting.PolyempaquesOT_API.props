@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PolyempaquesOT_API.props" />
+</Project>
