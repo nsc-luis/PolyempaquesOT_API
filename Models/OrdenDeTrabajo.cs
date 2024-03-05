@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PolyempaquesOT_API.Models
 {
@@ -11,7 +12,9 @@ namespace PolyempaquesOT_API.Models
         public int idProducto { get; set; }
         [Precision(10, 2)]
         public  decimal cantidad { get; set; }
+        [NotMapped]
         public DateOnly fechaOrden { get; set; }
+        [NotMapped] 
         public DateOnly? fechaCompromiso { get; set; }
         public int idEstatus { get; set; }
     }
